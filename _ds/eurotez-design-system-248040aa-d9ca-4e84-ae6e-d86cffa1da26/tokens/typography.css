@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@font-face{font-family:"Commuters Sans";font-style:normal;font-weight:200;font-display:swap;src:url("../assets/fonts/CommutersSans-ExtraLight.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:italic;font-weight:200;font-display:swap;src:url("../assets/fonts/CommutersSans-ExtraLightItalic.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:normal;font-weight:300;font-display:swap;src:url("../assets/fonts/CommutersSans-Light.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:italic;font-weight:400;font-display:swap;src:url("../assets/fonts/CommutersSans-Italic.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:normal;font-weight:700;font-display:swap;src:url("../assets/fonts/CommutersSans-Bold.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:italic;font-weight:700;font-display:swap;src:url("../assets/fonts/CommutersSans-BoldItalic.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:normal;font-weight:800;font-display:swap;src:url("../assets/fonts/CommutersSans-ExtraBold.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:italic;font-weight:800;font-display:swap;src:url("../assets/fonts/CommutersSans-ExtraBoldItalic.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:normal;font-weight:900;font-display:swap;src:url("../assets/fonts/CommutersSans-Heavy.otf") format("opentype");}
+@font-face{font-family:"Commuters Sans";font-style:italic;font-weight:900;font-display:swap;src:url("../assets/fonts/CommutersSans-HeavyItalic.otf") format("opentype");}
+
+:root{
+/* Commuters Sans = fuente oficial de títulos.
+   Archivos cargados: 200/300 y 700/800/900 + itálicas. NO hay Regular 400 ni Medium 500. */
+--font-display:"Commuters Sans",-apple-system,"Segoe UI",sans-serif;
+--font-body:"Montserrat",-apple-system,"Segoe UI",sans-serif;
+
+--text-display-xl:clamp(2.75rem,calc(4vw + 1rem),5rem);
+--text-display-l:clamp(2.25rem,calc(3vw + 1rem),3.5rem);
+--text-display-m:clamp(1.75rem,calc(2vw + 1rem),2.5rem);
+--text-heading:1.375rem;
+--text-body-l:1.125rem;
+--text-body:1rem;
+--text-body-s:0.875rem;
+--text-caption:0.75rem;
+--text-eyebrow:0.75rem;
+
+--leading-tight:1.1;
+--leading-snug:1.3;
+--leading-normal:1.6;
+
+--tracking-tight:-0.01em;
+--tracking-normal:0;
+--tracking-wide:0.08em;
+--tracking-wider:0.22em;
+/* tracking del logotipo: EUROTEZ va extremadamente abierto */
+--tracking-logo:0.42em;
+
+--weight-extralight:200;
+--weight-light:300;
+--weight-regular:400;
+--weight-medium:500;
+--weight-semibold:600;
+--weight-bold:700;
+--weight-extrabold:800;
+--weight-heavy:900;
+/* pesos disponibles en Commuters Sans: 200, 300, 700, 800, 900 */
+--weight-display:300;
+}

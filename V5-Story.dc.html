@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/styles.css">
+<script src="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/_ds_bundle.js"></script>
+<style>body{margin:0}a{color:#745334}a:hover{color:#4A351F}</style>
+</helmet>
+<div style="display:flex;flex-direction:column;font-family:Montserrat,sans-serif;color:#4D4D4D">
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<div style="background:#4A351F;color:#FDEEC4;text-align:center;padding:11px 24px;font-size:14px;font-weight:500;letter-spacing:.04em">Ships anywhere in the US. 30-day returns.</div>
+<section style="position:relative;min-height:clamp(600px,46cqw,680px);background:#DCD5CB url('assets/photos/portrait-blouse.jpg') center 20%/cover no-repeat;display:flex;flex-direction:column;overflow:hidden">
+
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(74,53,31,.88) 0%,rgba(74,53,31,.62) 45%,rgba(74,53,31,.08) 80%),linear-gradient(0deg,rgba(74,53,31,.7) 0%,rgba(74,53,31,0) 55%)"></div>
+<span style="position:absolute;top:auto;bottom:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span>
+<sc-if value="{{ desk }}" hint-placeholder-val="{{ true }}">
+<header style="position:relative;padding:0 24px;border-bottom:1px solid rgba(253,238,196,.35)"><div style="max-width:1200px;margin:0 auto;height:92px;display:flex;align-items:center;gap:48px;color:#FDEEC4">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:36px;display:block">
+<nav style="display:flex;gap:32px;font-size:15px;font-weight:500;flex:1"><span>The Cream</span><span>Our Story</span><span>Ingredients</span><span>FAQ &amp; Contact</span></nav>
+<span style="font-size:14px;font-weight:500">EN | ES</span>
+<span style="display:inline-flex;align-items:center;gap:10px;height:48px;padding:0 22px;border-radius:2px;background:#FDEEC4;color:#4A351F;font-size:15px;font-weight:600">Shop Now<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4A351F" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="1.5"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg></span>
+</div></header>
+</sc-if>
+<sc-if value="{{ mob }}" hint-placeholder-val="{{ false }}">
+<header style="position:relative;padding:0 16px;height:68px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(253,238,196,.35)">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:28px;display:block">
+<div style="display:flex;align-items:center;gap:4px">
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="1.5"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg></span>
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="1.5"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+</div>
+</header>
+</sc-if>
+<div style="position:relative;flex:1;display:flex;align-items:flex-end;padding:40px 24px clamp(48px,6.6cqw,96px)"><div style="max-width:1200px;width:100%;margin:0 auto"><div style="max-width:620px;display:flex;flex-direction:column;gap:22px;color:#FDEEC4">
+<p style="margin:0;font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase">Our Story</p>
+<h1 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(42px,4.6cqw,66px);line-height:1.05;color:#FFFFFF;text-wrap:balance">Skincare That Adapts to Your Life</h1>
+</div></div></div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Header + 1 Page hero</div><div><b>Header:</b> same Astra Transparent Header as Home (enable per page). Hero: Container full width, min-height 680, bg image (Sureli portrait), Background Overlay gradient 90° Deep Cocoa 88% → 8% + bottom layer, boxed 1200, justify end &gt; H6, H1 (white).</div><div style="color:#6B645C"><b>≤767:</b> min-height 600; text on the bottom gradient.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;display:flex;flex-wrap:wrap">
+<div style="flex:1 1 360px;min-height:clamp(360px,44cqw,640px);background:#DCD5CB url('assets/photos/apply-robe.jpg') center 30%/cover no-repeat;position:relative;overflow:hidden"><video src="assets/video/apply-robe.mp4" poster="assets/photos/apply-robe.jpg" autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video><span style="position:absolute;top:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span></div>
+<div style="flex:1 1 360px;box-sizing:border-box;padding:clamp(48px,6.6cqw,96px) max(24px,calc(50cqw - 600px)) clamp(48px,6.6cqw,96px) clamp(24px,5.5cqw,80px);display:flex;flex-direction:column;justify-content:center;gap:20px">
+<p style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(22px,1.8cqw,26px);line-height:1.45;color:#745334;text-wrap:pretty">Every great idea is born from a real need. Eurotez began in front of the mirror, among bottles of cleansers, exfoliants, and creams that promised so much and demanded even more: time, money, and a routine impossible to maintain.</p>
+<p style="margin:0;font-size:16px;line-height:1.75;max-width:500px;text-wrap:pretty">Sureli Grullón, our founder, knew that reality well. An active, hardworking woman committed to her wellbeing, she discovered that true luxury isn’t found in accumulating products, but in simplifying. And so Eurotez was born: a formula designed to do the work of many, created with quality natural ingredients, without compromising your health.</p>
+</div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">2 Our Story · zigzag A</div><div>Container full width, row 50/50, gap 0 &gt; left: Container bg Video (apply-robe.mp4, fallback jpg), min-height 640 &gt; right: Text Editor (paragraph 1, display 300, 26 px, Primary), Text Editor.</div><div style="color:#6B645C"><b>≤767:</b> column, video first (fallback image on mobile), min-height 360.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="position:relative;background:#DCD5CB url('assets/photos/mirror-selfie.jpg') center 30%/cover no-repeat;min-height:clamp(600px,48cqw,700px);display:flex;align-items:flex-end;padding:clamp(48px,6.6cqw,96px) 24px">
+<span style="position:absolute;top:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span>
+<div style="position:absolute;inset:0;background:linear-gradient(270deg,rgba(74,53,31,.9) 0%,rgba(74,53,31,.7) 50%,rgba(74,53,31,.1) 90%),linear-gradient(0deg,rgba(74,53,31,.55) 0%,rgba(74,53,31,0) 60%)"></div>
+<div style="position:relative;max-width:1200px;width:100%;margin:0 auto;display:flex;justify-content:flex-end"><div style="max-width:520px;display:flex;flex-direction:column;gap:20px;color:#FDEEC4">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(30px,3.05cqw,44px);line-height:1.12;color:#FFFFFF;text-wrap:balance">Who We Exist For</h2>
+<p style="margin:0;font-size:16px;line-height:1.75;max-width:500px;text-wrap:pretty">Eurotez was created for the woman who does it all. The one who works, travels, cares for her loved ones, and ends the day exhausted, yet never gives up on looking and feeling her best. The one who takes care of herself, even when consistency doesn’t always come easy.</p>
+<p style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-style:italic;font-size:clamp(20px,1.66cqw,24px);line-height:1.5;border-top:1px solid #D5B084;padding-top:20px">To her we say: your skincare should adapt to your life, not complicate it.</p>
+</div></div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">3 Who We Exist For · text on photo</div><div>Container full width, min-height 700, bg image, Background Overlay gradient 270°, Deep Cocoa 90% → 10% (+ bottom layer), boxed 1200, justify end &gt; Container (max 520): H2 (white), Text Editor, Text Editor (second paragraph, display 200 italic, border-top 1 px Accent).</div><div style="color:#6B645C"><b>≤767:</b> overlay flat 70%; text bottom-aligned.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;display:flex;flex-wrap:wrap-reverse">
+<div style="flex:1 1 360px;box-sizing:border-box;padding:clamp(48px,6.6cqw,96px) clamp(24px,5.5cqw,80px) clamp(48px,6.6cqw,96px) max(24px,calc(50cqw - 600px));display:flex;flex-direction:column;justify-content:center;gap:20px">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(30px,3.05cqw,44px);line-height:1.12;color:#745334;text-wrap:balance">What Sets Us Apart</h2>
+<p style="margin:0;font-size:clamp(18px,1.4cqw,20px);font-weight:500;line-height:1.5;text-wrap:pretty">The skincare industry has taught women to expect false promises: products that irritate, results that fade within days, and endless routines no one needs.</p>
+<p style="margin:0;font-size:16px;line-height:1.75;max-width:500px;text-wrap:pretty">Eurotez was born from the opposite principle: promise only what the formula can deliver, and never cut corners on what goes into the jar.</p>
+</div>
+<div style="flex:1 1 360px;min-height:clamp(360px,44cqw,640px);background:#DCD5CB url('assets/photos/marble-smile.jpg') center 30%/cover no-repeat;position:relative;overflow:hidden"><span style="position:absolute;top:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span></div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">4 What Sets Us Apart · zigzag B</div><div>Container full width, row 50/50, gap 0 &gt; left: H2, Heading p, Text Editor &gt; right: bg image Container, min-height 640.</div><div style="color:#6B645C"><b>≤767:</b> column, reverse (image first).</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FDEEC4;padding:clamp(64px,6.6cqw,96px) 24px"><div style="max-width:760px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center;gap:22px">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(30px,3.05cqw,44px);line-height:1.12;color:#745334;text-wrap:balance">Our Promise</h2>
+<p style="margin:0;font-size:clamp(18px,1.4cqw,20px);line-height:1.6;text-wrap:pretty">There is a line we will never cross: we will not include a single ingredient that is harsh or harmful to your skin or your health. Not for higher margins, not for faster results. This is our commitment to you.</p>
+</div></section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">5 Our Promise · the pause</div><div>Container full, bg Secondary, boxed 760, column, centered &gt; H2, Text Editor. Same Section template as Home 7 without the Icon List. The only section on this page without a photo.</div><div style="color:#6B645C"><b>≤767:</b> padding 64.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;display:flex;flex-wrap:wrap">
+<div style="flex:1 1 360px;min-height:clamp(360px,44cqw,640px);background:#DCD5CB url('assets/photos/night-bed.jpg') center 30%/cover no-repeat;position:relative;overflow:hidden"><video src="assets/video/night-bed.mp4" poster="assets/photos/night-bed.jpg" autoplay muted loop playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video><span style="position:absolute;top:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span></div>
+<div style="flex:1 1 360px;box-sizing:border-box;padding:clamp(48px,6.6cqw,96px) max(24px,calc(50cqw - 600px)) clamp(48px,6.6cqw,96px) clamp(24px,5.5cqw,80px);display:flex;flex-direction:column;justify-content:center;gap:20px">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(30px,3.05cqw,44px);line-height:1.12;color:#745334;text-wrap:balance">Our Philosophy</h2>
+<p style="margin:0;font-size:clamp(18px,1.4cqw,20px);font-weight:500;line-height:1.5;text-wrap:pretty">We believe true beauty is the reflection of self-care. It begins within: in how you eat, how you rest, and the peace you carry inside. When a woman feels good about herself, her skin shows it.</p>
+<p style="margin:0;font-size:16px;line-height:1.75;max-width:500px;text-wrap:pretty">Eurotez exists to accompany that lifestyle: natural, because it celebrates every woman just as she is; elegant, because it conveys confidence; and minimalist, because warmth is also class.</p>
+</div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">6 Our Philosophy · zigzag A</div><div>Container full width, row 50/50, gap 0 &gt; left: Container bg Video (night-bed.mp4, fallback jpg) &gt; right: H2, Heading p, Text Editor.</div><div style="color:#6B645C"><b>≤767:</b> column, video first.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="position:relative;background:#DCD5CB url('assets/photos/hands-jar.jpg') center 30%/cover no-repeat;min-height:clamp(520px,40cqw,580px);display:flex;align-items:center;padding:clamp(48px,6.6cqw,96px) 24px">
+<span style="position:absolute;top:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span>
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(74,53,31,.9) 0%,rgba(74,53,31,.7) 50%,rgba(74,53,31,.1) 90%),linear-gradient(0deg,rgba(74,53,31,.55) 0%,rgba(74,53,31,0) 60%)"></div>
+<div style="position:relative;max-width:1200px;width:100%;margin:0 auto;display:flex;justify-content:flex-start"><div style="max-width:560px;display:flex;flex-direction:column;gap:20px;color:#FDEEC4">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(30px,3.05cqw,44px);line-height:1.12;color:#FFFFFF;text-wrap:balance">Meet the Cream Sureli Created</h2>
+<span style="align-self:flex-start;display:inline-flex;align-items:center;gap:12px;height:54px;padding:0 28px;border-radius:2px;background:#FDEEC4;color:#4A351F;font-size:16px;font-weight:600;margin-top:6px">Shop Now, $25<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4A351F" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+</div></div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">7 Closing CTA · text on photo</div><div>Container full width, min-height 580, bg image, Background Overlay gradient 90°, Deep Cocoa 90% → 10%, boxed 1200 &gt; Container (max 560): H2 (white), Button (Secondary bg, arrow). Same Section template as Home 8.</div><div style="color:#6B645C"><b>≤767:</b> overlay flat 75%.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<footer style="background:#4A351F;color:#FDEEC4;padding:clamp(56px,5.5cqw,80px) 24px 28px"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-wrap:wrap;gap:40px clamp(32px,4.4cqw,64px)">
+<div style="flex:1 1 calc(40% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:16px">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:34px;align-self:flex-start">
+<p style="margin:0;font-size:16px;line-height:1.6">Skincare that adapts to your life.</p>
+<h5 style="margin:16px 0 0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:22px;color:#FFFFFF">Join the Eurotez List</h5>
+<p style="margin:0;font-size:16px;line-height:1.6">Skin tips and first word on new products. No spam.</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<input type="email" aria-label="Your email" placeholder="Your email" style="flex:1 1 200px;height:54px;box-sizing:border-box;display:flex;align-items:center;padding:0 16px;background:#FFFFFF;border-radius:2px;color:#4D4D4D;font-size:16px;font-family:Montserrat,sans-serif;outline-color:#745334;min-width:0;border-radius:2px;border:0;">
+<span style="display:inline-flex;align-items:center;gap:10px;height:54px;padding:0 24px;border-radius:2px;background:#FDEEC4;color:#4A351F;font-size:16px;font-weight:600">Subscribe<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4A351F" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+</div>
+</div>
+<div style="flex:1 1 calc(60% - 32px);min-width:min(300px,100%);display:flex;flex-wrap:wrap;gap:32px 24px">
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">Shop</span><span>The Cream</span><span>Ingredients</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">About</span><span>Our Story</span><span>FAQ &amp; Contact</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">Policies</span><span>Shipping &amp; Returns</span><span>Privacy Policy</span><span>Terms and Conditions</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px;align-items:flex-start"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">Contact</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Email address]</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Instagram, Facebook, TikTok handles]</span></div>
+</div>
+</div>
+<div style="border-top:1px solid #745334;padding-top:24px;font-size:14px">© 2024 Eurotez Skincare. All rights reserved.</div>
+</div></footer>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Footer · Astra Builder</div><div>Astra Footer Builder, bg Custom Deep Cocoa. Primary Footer, 5 columns (40 / 15 × 4): Widget 1 (logo, tagline, heading, text, Elementor Pro Form shortcode with arrow-icon button) · 3 nav menus · contact text. Column heads in Accent (5.6:1). Below Footer: copyright.</div><div style="color:#6B645C"><b>≤767:</b> columns stack; menus 2-up.</div></div></aside></sc-if>
+</div>
+
+</div>
+</x-dc>
+</body>
+</html>

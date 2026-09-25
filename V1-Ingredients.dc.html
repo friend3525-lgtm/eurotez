@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/styles.css">
+<script src="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/_ds_bundle.js"></script>
+<style>body{margin:0}a{color:#745334}a:hover{color:#5E4329}</style>
+</helmet>
+<div style="display:flex;flex-direction:column;font-family:Montserrat,sans-serif;color:#745334">
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<div style="background:#FEFAF1;border-bottom:1px solid #D5B084;text-align:center;padding:12px 24px;font-size:13px;font-weight:500;letter-spacing:.16em;text-transform:uppercase">Ships anywhere in the US. 30-day returns.</div>
+<sc-if value="{{ desk }}" hint-placeholder-val="{{ true }}">
+<header style="background:#FEFAF1;border-bottom:1px solid #D5B084;padding:0 24px"><div style="max-width:1200px;margin:0 auto;height:96px;display:flex;align-items:center;justify-content:space-between;gap:32px">
+<img src="assets/logo-horizontal.png" alt="Eurotez Skincare" style="height:38px;display:block">
+<nav style="display:flex;gap:36px;font-size:15px"><span>The Cream</span><span>Our Story</span><span>Ingredients</span><span>FAQ &amp; Contact</span></nav>
+<div style="display:flex;align-items:center;gap:24px">
+<span style="font-size:13px;letter-spacing:.12em">EN | ES</span>
+<span style="display:inline-flex;align-items:center;height:44px;padding:0 24px;background:#745334;color:#FEFAF1;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase">Shop Now</span>
+<span style="position:relative;display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg><span style="position:absolute;top:6px;right:4px;font-size:10px;font-weight:600">0</span></span>
+</div>
+</div></header>
+</sc-if>
+<sc-if value="{{ mob }}" hint-placeholder-val="{{ false }}">
+<header style="background:#FEFAF1;border-bottom:1px solid #D5B084;padding:0 20px;height:68px;display:flex;align-items:center;justify-content:space-between">
+<img src="assets/logo-horizontal.png" alt="Eurotez Skincare" style="height:28px;display:block">
+<div style="display:flex;align-items:center;gap:4px">
+<span style="position:relative;display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg><span style="position:absolute;top:6px;right:4px;font-size:10px;font-weight:600">0</span></span>
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+</div>
+</header>
+</sc-if>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Header · Astra Builder</div><div>Above Header: HTML 1 (announcement), bottom border 1px Accent. Primary Header: Logo &gt; Primary Menu &gt; Widget 1 (EN | ES) &gt; Button 1 (solid) &gt; WooCommerce Cart. Transparent header off, sticky off.</div><div style="color:#6B645C"><b>≤767:</b> Mobile header: Logo, Cart, Menu toggle (off-canvas). Above Header kept; text wraps.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;display:flex;flex-wrap:wrap;border-bottom:1px solid #D5B084">
+<div style="flex:1 1 360px;box-sizing:border-box;padding:clamp(56px,9cqw,136px) clamp(24px,5.5cqw,80px) clamp(56px,9cqw,136px) max(24px,calc(50cqw - 600px));display:flex;flex-direction:column;justify-content:center;gap:28px">
+<div style="display:flex;align-items:center;gap:16px;font-size:13px;font-weight:600;letter-spacing:.22em;text-transform:uppercase"><span>01</span><span style="width:40px;height:1px;background:#D5B084"></span><span>Ingredients</span></div>
+<h1 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(44px,5.3cqw,76px);line-height:1.04;letter-spacing:-.01em;text-wrap:balance">What’s Inside, and Why</h1>
+<p style="margin:0;font-weight:300;font-size:clamp(19px,1.4cqw,21px);line-height:1.45;max-width:560px">Every ingredient earns its place. Here is what each one does for your skin.</p>
+</div>
+<div style="flex:1 1 360px;min-height:clamp(440px,48cqw,700px);background:#DCD5CB url('assets/photos/jar-macro.jpg') center 30%/cover no-repeat;position:relative"><span style="position:absolute;top:10px;left:10px;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span></div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">01 Page hero</div><div>Same Section template as the Our Story hero: 50/50, text left (Icon List eyebrow, H1, Heading p), Image right. Copy deck asks for an ingredient flat lay; DS photography rules exclude botanicals in frame, so the jar macro stands in.</div><div style="color:#6B645C"><b>≤767:</b> column, text first, image min-height 440.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;padding:clamp(80px,10cqw,144px) 24px"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column">
+<div style="margin-bottom:clamp(32px,3.3cqw,48px)"><div style="display:flex;align-items:center;gap:16px;font-size:13px;font-weight:600;letter-spacing:.22em"><span>02</span><span style="flex:1;height:1px;background:#D5B084"></span></div></div>
+<div style="display:flex;flex-wrap:wrap;gap:12px clamp(40px,5.5cqw,80px);padding:clamp(28px,2.8cqw,40px) 0;border-top:1px solid #D5B084">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(280px,100%);display:flex;align-items:baseline;gap:24px"><span style="font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:30px;line-height:1;width:40px;flex:none">1</span><h3 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(24px,2.2cqw,32px);line-height:1.15">Ceramides</h3></div>
+<p style="flex:1 1 calc(60% - 40px);min-width:min(280px,100%);margin:0;font-size:clamp(16px,1.18cqw,17px);line-height:1.75;max-width:620px;text-wrap:pretty">Ceramides are a natural part of your skin’s outer layer, where they help hold moisture in. Eurotez includes a blend of ceramides to help support that moisture barrier, so skin feels comfortable, not tight.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px clamp(40px,5.5cqw,80px);padding:clamp(28px,2.8cqw,40px) 0;border-top:1px solid #D5B084">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(280px,100%);display:flex;align-items:baseline;gap:24px"><span style="font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:30px;line-height:1;width:40px;flex:none">2</span><h3 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(24px,2.2cqw,32px);line-height:1.15">Squalane</h3></div>
+<p style="flex:1 1 calc(60% - 40px);min-width:min(280px,100%);margin:0;font-size:clamp(16px,1.18cqw,17px);line-height:1.75;max-width:620px;text-wrap:pretty">A lightweight oil similar to the oils your skin makes naturally. It locks in moisture and leaves skin soft without a heavy or greasy feel.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px clamp(40px,5.5cqw,80px);padding:clamp(28px,2.8cqw,40px) 0;border-top:1px solid #D5B084">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(280px,100%);display:flex;align-items:baseline;gap:24px"><span style="font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:30px;line-height:1;width:40px;flex:none">3</span><h3 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(24px,2.2cqw,32px);line-height:1.15">Urea</h3></div>
+<p style="flex:1 1 calc(60% - 40px);min-width:min(280px,100%);margin:0;font-size:clamp(16px,1.18cqw,17px);line-height:1.75;max-width:620px;text-wrap:pretty">A moisture-binding ingredient your skin already knows. It draws water to the skin’s surface and helps smooth dry, rough patches.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px clamp(40px,5.5cqw,80px);padding:clamp(28px,2.8cqw,40px) 0;border-top:1px solid #D5B084">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(280px,100%);display:flex;align-items:baseline;gap:24px"><span style="font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:30px;line-height:1;width:40px;flex:none">4</span><h3 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(24px,2.2cqw,32px);line-height:1.15">Centella Asiatica</h3></div>
+<p style="flex:1 1 calc(60% - 40px);min-width:min(280px,100%);margin:0;font-size:clamp(16px,1.18cqw,17px);line-height:1.75;max-width:620px;text-wrap:pretty">A botanical long used in skincare for its calming properties. It helps comfort skin and keep it looking balanced.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px clamp(40px,5.5cqw,80px);padding:clamp(28px,2.8cqw,40px) 0;border-top:1px solid #D5B084">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(280px,100%);display:flex;align-items:baseline;gap:24px"><span style="font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:30px;line-height:1;width:40px;flex:none">5</span><h3 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(24px,2.2cqw,32px);line-height:1.15">Vitamin E</h3></div>
+<p style="flex:1 1 calc(60% - 40px);min-width:min(280px,100%);margin:0;font-size:clamp(16px,1.18cqw,17px);line-height:1.75;max-width:620px;text-wrap:pretty">An antioxidant that helps protect skin from everyday stress and keeps it looking revitalized. On the label it appears as tocopherol.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px clamp(40px,5.5cqw,80px);padding:clamp(28px,2.8cqw,40px) 0;border-top:1px solid #D5B084">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(280px,100%);display:flex;align-items:baseline;gap:24px"><span style="font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:30px;line-height:1;width:40px;flex:none">6</span><h3 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(24px,2.2cqw,32px);line-height:1.15">Plant Oils and Shea Butter</h3></div>
+<p style="flex:1 1 calc(60% - 40px);min-width:min(280px,100%);margin:0;font-size:clamp(16px,1.18cqw,17px);line-height:1.75;max-width:620px;text-wrap:pretty">Jojoba, meadowfoam, coconut, and sea buckthorn oils, with shea butter, nourish dry skin and leave it soft and supple.</p>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:12px clamp(40px,5.5cqw,80px);padding:clamp(28px,2.8cqw,40px) 0;border-top:1px solid #D5B084;border-bottom:1px solid #D5B084">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(280px,100%);font-size:13px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;padding-left:64px;box-sizing:border-box">Also in the jar</div>
+<p style="flex:1 1 calc(60% - 40px);min-width:min(280px,100%);margin:0;font-size:clamp(16px,1.18cqw,17px);line-height:1.75;max-width:620px">Glycerin and panthenol (provitamin B5) for extra moisture, plus phytosteryl oleate and hydrogenated lecithin to help keep skin soft and comfortable.</p>
+</div>
+</div></section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">02 Key ingredients</div><div>Container full, boxed 1200, column &gt; H6 + Divider &gt; 7 × Container row 40/60, border-top 1 px Accent: left: Heading (number, 30 px) + H3 (32 px, 200) &gt; right: Text Editor. Last row: H6 “Also in the jar” + Text Editor, border-bottom. No icons or per-ingredient photos: the DS has no icon set and rules out botanicals. Formulator to confirm descriptions.</div><div style="color:#6B645C"><b>≤767:</b> each row stacks; name above description, gap 12.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;padding:clamp(80px,10cqw,144px) 24px;border-top:1px solid #D5B084"><div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:flex-start;gap:clamp(40px,5.5cqw,80px)">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;align-items:center;gap:16px;font-size:13px;font-weight:600;letter-spacing:.22em"><span>03</span><span style="flex:1;height:1px;background:#D5B084"></span></div>
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(34px,3.6cqw,52px);line-height:1.1;text-wrap:balance">What You Won’t Find</h2>
+</div>
+<div style="flex:1 1 calc(60% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px;padding-top:clamp(0px,3cqw,44px)">
+<div style="display:flex;flex-direction:column;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(22px,1.8cqw,26px)">
+<div style="padding:18px 0;border-top:1px solid #D5B084">Parabens.</div>
+<div style="padding:18px 0;border-top:1px solid #D5B084">Silicones.</div>
+<div style="padding:18px 0;border-top:1px solid #D5B084">Synthetic fragrances.</div>
+<div style="padding:18px 0;border-top:1px solid #D5B084;border-bottom:1px solid #D5B084;font-style:italic">Suitable for sensitive skin.</div>
+</div>
+</div>
+</div></section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">03 What you won’t find</div><div>Container full, boxed 1200, row 40/60 &gt; left: H6 + Divider, H2 &gt; right: Icon List (no icons, display 200, 26 px, divider 1 px Accent). Last item italic: it is the positive line.</div><div style="color:#6B645C"><b>≤767:</b> column.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;padding:clamp(80px,10cqw,144px) 24px;border-top:1px solid #D5B084"><div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:flex-start;gap:clamp(40px,5.5cqw,80px)">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;align-items:center;gap:16px;font-size:13px;font-weight:600;letter-spacing:.22em"><span>04</span><span style="flex:1;height:1px;background:#D5B084"></span></div>
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(34px,3.6cqw,52px);line-height:1.1;text-wrap:balance">Full Ingredient List</h2>
+</div>
+<div style="flex:1 1 calc(60% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px;padding-top:clamp(0px,3cqw,44px)">
+<p style="margin:0;font-size:14px;font-weight:500;line-height:2;letter-spacing:.08em;overflow-wrap:break-word">WATER, SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL, GLYCERIN, LIMNANTHES ALBA (MEADOWFOAM) SEED OIL, CETEARYL ALCOHOL, SQUALANE, UREA, COCOS NUCIFERA (COCONUT) OIL, BUTYROSPERMUM PARKII (SHEA) BUTTER, GLYCERYL STEARATE, HYDROXYACETOPHENONE, 1,2-HEXANEDIOL, TOCOPHEROL, PEG-100 STEARATE, POLYACRYLAMIDE, HEXYLDECANOL, CERAMIDE NP, CERAMIDE AP, CERAMIDE AS, PANTHENOL, CERAMIDE NS/CERAMIDE NG, PHYTOSTERYL OLEATE, CENTELLA ASIATICA EXTRACT, HIPPOPHAE RHAMNOIDES FRUIT OIL, HYDROGENATED LECITHIN, CERAMIDE EOP</p>
+<p style="margin:0;font-size:16px;line-height:1.7;font-style:italic;padding-top:24px;border-top:1px solid #D5B084">Ingredients are listed as they appear on the label. Formulas can change, so always check the label on your jar.</p>
+</div>
+</div></section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">04 Full ingredient list</div><div>Container full, boxed 1200, row 40/60 &gt; left: H6 + Divider, H2 &gt; right: Text Editor (INCI list verbatim from DS, 14 px 500, tracking .08em, line-height 2), Text Editor (note, italic, border-top). Same list in Spanish: INCI names are not translated.</div><div style="color:#6B645C"><b>≤767:</b> column; list 14 px keeps line length readable.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;padding:clamp(80px,10cqw,144px) 24px;border-top:1px solid #D5B084"><div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:flex-start;gap:clamp(40px,5.5cqw,80px)">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;align-items:center;gap:16px;font-size:13px;font-weight:600;letter-spacing:.22em"><span>05</span><span style="flex:1;height:1px;background:#D5B084"></span></div>
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(34px,3.6cqw,52px);line-height:1.1;text-wrap:balance">How to Use</h2>
+</div>
+<div style="flex:1 1 calc(60% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px;padding-top:clamp(0px,3cqw,44px)">
+<p style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(22px,1.8cqw,26px);line-height:1.45;text-wrap:pretty">Apply to a clean, dry face at night. Before your first use, test a small amount behind your ear.</p>
+</div>
+</div></section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">05 How to use</div><div>Container full, boxed 1200, row 40/60 &gt; left: H6 + Divider, H2 &gt; right: Text Editor (display 200, 26 px).</div><div style="color:#6B645C"><b>≤767:</b> column.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;padding:clamp(80px,10cqw,144px) 24px;border-top:1px solid #D5B084"><div style="max-width:1200px;margin:0 auto;display:flex;flex-wrap:wrap-reverse;align-items:center;gap:clamp(40px,5.5cqw,80px)">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(300px,100%);aspect-ratio:1/1;background:#DCD5CB url('assets/photos/hands-jar.jpg') center 30%/cover no-repeat;position:relative"><span style="position:absolute;top:10px;left:10px;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span></div>
+<div style="flex:1 1 calc(60% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;align-items:center;gap:16px;font-size:13px;font-weight:600;letter-spacing:.22em"><span>06</span><span style="flex:1;height:1px;background:#D5B084"></span></div>
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:200;font-size:clamp(34px,3.6cqw,52px);line-height:1.1;text-wrap:balance">Ready to Simplify Your Routine?</h2>
+<span style="align-self:flex-start;display:inline-flex;align-items:center;height:52px;padding:0 32px;background:#745334;color:#FEFAF1;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;margin-top:8px">Shop Now, $25</span>
+</div>
+</div></section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">06 Closing call to action</div><div>Container full, boxed 1200, row 40/60, align center &gt; left: Image (1:1) &gt; right: Container row (H6 + Divider), H2, Button (solid, links to The Cream).</div><div style="color:#6B645C"><b>≤767:</b> column, reverse order (text first, image last).</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<footer style="background:#745334;color:#FDEEC4;padding:clamp(64px,6.6cqw,96px) 24px 32px"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-wrap:wrap;gap:clamp(48px,5.5cqw,80px)">
+<div style="flex:1 1 calc(40% - 40px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:20px">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:34px;align-self:flex-start">
+<p style="margin:0;font-size:16px;line-height:1.6">Skincare that adapts to your life.</p>
+<div style="height:1px;background:#D5B084;margin:12px 0"></div>
+<h5 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;color:#FFFFFF">Join the Eurotez List</h5>
+<p style="margin:0;font-size:16px;line-height:1.6">Skin tips and first word on new products. No spam.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px">
+<input type="email" aria-label="Your email" placeholder="Your email" style="flex:1 1 200px;height:52px;box-sizing:border-box;display:flex;align-items:center;padding:0 16px;background:#FFFFFF;color:#745334;font-size:16px;font-family:Montserrat,sans-serif;outline-color:#745334;min-width:0;border-radius:0;border:0;">
+<span style="height:52px;display:inline-flex;align-items:center;justify-content:center;padding:0 28px;background:#FDEEC4;color:#745334;font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase">Subscribe</span>
+</div>
+</div>
+<div style="flex:1 1 calc(60% - 40px);min-width:min(300px,100%);display:flex;flex-wrap:wrap;gap:32px 24px">
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:12px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF;margin-bottom:4px">Shop</span><span>The Cream</span><span>Ingredients</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:12px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF;margin-bottom:4px">About</span><span>Our Story</span><span>FAQ &amp; Contact</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:12px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF;margin-bottom:4px">Policies</span><span>Shipping &amp; Returns</span><span>Privacy Policy</span><span>Terms and Conditions</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:12px;font-size:16px;align-items:flex-start"><span style="font-size:13px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#FFFFFF;margin-bottom:4px">Contact</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Email address]</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Instagram, Facebook, TikTok handles]</span></div>
+</div>
+</div>
+<div style="border-top:1px solid #D5B084;padding-top:24px;font-size:14px">© 2024 Eurotez Skincare. All rights reserved.</div>
+</div></footer>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Footer · Astra Builder</div><div>Astra Footer Builder, bg Primary. Primary Footer row, 5 columns (40 / 15 / 15 / 15 / 15): Widget 1 (Image logo, Text, Divider, Heading, Text, Elementor Pro Form via shortcode: Email + Submit) · Widgets 2–4 (Navigation menus) · Widget 5 (Text: email, Instagram). Below Footer: Copyright.</div><div style="color:#6B645C"><b>≤767:</b> columns stack; link columns 2-up.</div></div></aside></sc-if>
+</div>
+
+</div>
+</x-dc>
+</body>
+</html>

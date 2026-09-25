@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/styles.css">
+<script src="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/_ds_bundle.js"></script>
+<style>body{margin:0}a{color:#745334}a:hover{color:#4A351F}</style>
+</helmet>
+<div style="display:flex;flex-direction:column;font-family:Montserrat,sans-serif;color:#4D4D4D">
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<div style="background:#4A351F;color:#FDEEC4;text-align:center;padding:11px 24px;font-size:14px;font-weight:500;letter-spacing:.04em">Envíos a todo Estados Unidos. Devoluciones dentro de 30 días.</div>
+<section style="position:relative;min-height:clamp(520px,36cqw,540px);background:#DCD5CB url('assets/photos/portrait-robe.jpg') center 25%/cover no-repeat;display:flex;flex-direction:column;overflow:hidden">
+
+<div style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(74,53,31,.88) 0%,rgba(74,53,31,.62) 45%,rgba(74,53,31,.08) 80%),linear-gradient(0deg,rgba(74,53,31,.7) 0%,rgba(74,53,31,0) 55%)"></div>
+<span style="position:absolute;top:auto;bottom:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span>
+<sc-if value="{{ desk }}" hint-placeholder-val="{{ true }}">
+<header style="position:relative;padding:0 24px;border-bottom:1px solid rgba(253,238,196,.35)"><div style="max-width:1200px;margin:0 auto;height:92px;display:flex;align-items:center;gap:48px;color:#FDEEC4">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:36px;display:block">
+<nav style="display:flex;gap:32px;font-size:15px;font-weight:500;flex:1"><span>La Crema</span><span>Nuestra Historia</span><span>Ingredientes</span><span>Preguntas y Contacto</span></nav>
+<span style="font-size:14px;font-weight:500">EN | ES</span>
+<span style="display:inline-flex;align-items:center;gap:10px;height:48px;padding:0 22px;border-radius:2px;background:#FDEEC4;color:#4A351F;font-size:15px;font-weight:600">Comprar Ahora<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4A351F" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="1.5"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg></span>
+</div></header>
+</sc-if>
+<sc-if value="{{ mob }}" hint-placeholder-val="{{ false }}">
+<header style="position:relative;padding:0 16px;height:68px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(253,238,196,.35)">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:28px;display:block">
+<div style="display:flex;align-items:center;gap:4px">
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="1.5"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg></span>
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="1.5"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+</div>
+</header>
+</sc-if>
+<div style="position:relative;flex:1;display:flex;align-items:flex-end;padding:40px 24px clamp(48px,6.6cqw,96px)"><div style="max-width:1200px;width:100%;margin:0 auto"><div style="max-width:620px;display:flex;flex-direction:column;gap:22px;color:#FDEEC4">
+<h1 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(42px,4.6cqw,66px);line-height:1.05;color:#FFFFFF;text-wrap:balance">Preguntas y Contacto</h1>
+<p style="margin:0;font-size:clamp(19px,1.4cqw,21px);font-weight:500;line-height:1.45">Todo lo que necesitas saber sobre Eurotez. ¿Tienes otra pregunta? Escríbenos.</p>
+</div></div></div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Header + 1 Page hero</div><div><b>Header:</b> same Astra Transparent Header as Home (enable per page). Hero: same Section template, shorter (min-height 540), bg image portrait-robe &gt; H1, Heading p. Ampersand set in Montserrat (DEMO Commuters swaps it for an ornament).</div><div style="color:#6B645C"><b>≤767:</b> min-height 520.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;display:flex;flex-wrap:wrap;align-items:stretch">
+<div style="flex:1 1 360px;min-height:clamp(360px,44cqw,640px);background:#DCD5CB url('assets/photos/sink-scoop.jpg') center 30%/cover no-repeat;position:relative"><span style="position:absolute;top:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span></div>
+<div style="flex:1 1 360px;box-sizing:border-box;padding:clamp(48px,6.6cqw,96px) max(24px,calc(50cqw - 600px)) clamp(48px,6.6cqw,96px) clamp(24px,5.5cqw,80px);display:flex;flex-direction:column;justify-content:flex-start;gap:20px">
+<div style="display:flex;flex-direction:column"><div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Para quién es Eurotez?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 15l6-6 6 6"></path></svg></div><p style="margin:0 0 24px;font-size:16px;line-height:1.75;padding-right:40px">Para mujeres con piel seca, opaca o madura que quieren cuidar su piel sin una rutina complicada. También es apta para piel sensible.</p></div>
+<div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Cuándo y cómo se usa?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div>
+<div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Puedo usarla por la mañana?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div>
+<div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Puedo usarla si tengo la piel sensible?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div>
+<div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Reemplaza mis otros productos?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div>
+<div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Qué contiene?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div>
+<div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿A dónde envían y cuánto cuesta?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div>
+<div style="border-top:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Cuál es su política de devoluciones?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div>
+<div style="border-top:1px solid #D5B084;border-bottom:1px solid #D5B084"><div style="display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:44px;padding:18px 0"><h4 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.3;color:#745334">¿Cómo puedo comunicarme con ustedes?</h4><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#745334" stroke-width="1.5" style="flex:none"><path d="M6 9l6 6 6-6"></path></svg></div></div></div>
+</div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">2 FAQ · zigzag A</div><div>Container full width, row 50/50, gap 0 &gt; left: Container bg image, height 100% (stretches with the accordion; set Position sticky off) &gt; right: Accordion (9 items, first expanded, chevron icon, title Commuters 300 20 px Primary, divider 1 px Accent). FAQ Schema on. Q5 still needs Sureli’s OK; Q7 needs delivery time.</div><div style="color:#6B645C"><b>≤767:</b> column, image first at min-height 360.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="background:#FEFAF1;display:flex;flex-wrap:wrap-reverse">
+<div style="flex:1 1 360px;box-sizing:border-box;padding:clamp(48px,6.6cqw,96px) clamp(24px,5.5cqw,80px) clamp(48px,6.6cqw,96px) max(24px,calc(50cqw - 600px));display:flex;flex-direction:column;justify-content:center;gap:20px">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:clamp(30px,3.05cqw,44px);line-height:1.12;color:#745334;text-wrap:balance">Escríbenos</h2>
+<p style="margin:0;font-size:16px;line-height:1.75;max-width:500px;text-wrap:pretty">¿Tienes preguntas sobre tu pedido o tu piel? Envíanos un mensaje y te responderemos en un lapso de tiempo prudente.</p>
+<div style="display:flex;flex-direction:column;gap:16px;margin-top:8px"><div style="display:flex;flex-direction:column;gap:8px"><span style="font-size:14px;font-weight:600">Nombre</span><input type="text" aria-label="Nombre" style="height:54px;box-sizing:border-box;background:#FFFFFF;border:1px solid #D5B084;border-radius:2px;width:100%;font-family:Montserrat,sans-serif;font-size:16px;color:inherit;padding:0 16px;outline-color:#745334;resize:vertical"></div><div style="display:flex;flex-direction:column;gap:8px"><span style="font-size:14px;font-weight:600">Correo electrónico</span><input type="email" aria-label="Correo electrónico" style="height:54px;box-sizing:border-box;background:#FFFFFF;border:1px solid #D5B084;border-radius:2px;width:100%;font-family:Montserrat,sans-serif;font-size:16px;color:inherit;padding:0 16px;outline-color:#745334;resize:vertical"></div><div style="display:flex;flex-direction:column;gap:8px"><span style="font-size:14px;font-weight:600">Número de pedido (opcional)</span><input type="text" aria-label="Número de pedido (opcional)" style="height:54px;box-sizing:border-box;background:#FFFFFF;border:1px solid #D5B084;border-radius:2px;width:100%;font-family:Montserrat,sans-serif;font-size:16px;color:inherit;padding:0 16px;outline-color:#745334;resize:vertical"></div><div style="display:flex;flex-direction:column;gap:8px"><span style="font-size:14px;font-weight:600">Mensaje</span><textarea aria-label="Mensaje" style="height:160px;box-sizing:border-box;background:#FFFFFF;border:1px solid #D5B084;border-radius:2px;width:100%;font-family:Montserrat,sans-serif;font-size:16px;color:inherit;padding:14px 16px;outline-color:#745334;resize:vertical"></textarea></div></div>
+<span style="align-self:flex-start;display:inline-flex;align-items:center;gap:12px;height:54px;padding:0 28px;border-radius:2px;background:#745334;color:#FFFFFF;font-size:16px;font-weight:600;margin-top:6px">Enviar Mensaje<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+<div style="display:flex;flex-wrap:wrap;gap:12px;font-size:15px;padding-top:16px;border-top:1px solid #D5B084;margin-top:8px"><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Correo electrónico]</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Instagram]</span></div>
+</div>
+<div style="flex:1 1 360px;min-height:clamp(360px,44cqw,640px);background:#DCD5CB url('assets/photos/marble-smile.jpg') center 30%/cover no-repeat;position:relative;overflow:hidden"><span style="position:absolute;top:10px;left:10px;z-index:2;background:#FFFFFF;color:#4D4D4D;font-family:Montserrat,sans-serif;font-size:10px;font-weight:600;line-height:1;letter-spacing:.14em;text-transform:uppercase;padding:5px 7px">Stand-in</span></div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">3 Contact form · zigzag B</div><div>Container full width, row 50/50, gap 0 &gt; left: H2, Text Editor, Form (Pro): Name, Email, Order number (optional), Textarea; labels above 14 px 600; fields white, border 1 px Accent, radius 2, 54 tall; Submit solid Primary with arrow icon; Icon List (direct contact) &gt; right: bg image. Success: “Thank you. We received your message and will reply soon.”</div><div style="color:#6B645C"><b>≤767:</b> column, reverse (image first, form below).</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<footer style="background:#4A351F;color:#FDEEC4;padding:clamp(56px,5.5cqw,80px) 24px 28px"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-wrap:wrap;gap:40px clamp(32px,4.4cqw,64px)">
+<div style="flex:1 1 calc(40% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:16px">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:34px;align-self:flex-start">
+<p style="margin:0;font-size:16px;line-height:1.6">El cuidado de la piel que se adapta a tu vida.</p>
+<h5 style="margin:16px 0 0;font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:22px;color:#FFFFFF">Únete a la Lista Eurotez</h5>
+<p style="margin:0;font-size:16px;line-height:1.6">Consejos para tu piel y noticias de nuevos productos antes que nadie. Sin spam.</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px">
+<input type="email" aria-label="Tu correo electrónico" placeholder="Tu correo electrónico" style="flex:1 1 200px;height:54px;box-sizing:border-box;display:flex;align-items:center;padding:0 16px;background:#FFFFFF;border-radius:2px;color:#4D4D4D;font-size:16px;font-family:Montserrat,sans-serif;outline-color:#745334;min-width:0;border-radius:2px;border:0;">
+<span style="display:inline-flex;align-items:center;gap:10px;height:54px;padding:0 24px;border-radius:2px;background:#FDEEC4;color:#4A351F;font-size:16px;font-weight:600">Suscribirme<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#4A351F" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span>
+</div>
+</div>
+<div style="flex:1 1 calc(60% - 32px);min-width:min(300px,100%);display:flex;flex-wrap:wrap;gap:32px 24px">
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">Tienda</span><span>La Crema</span><span>Ingredientes</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">Nosotros</span><span>Nuestra Historia</span><span>Preguntas y Contacto</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">Políticas</span><span>Envíos y Devoluciones</span><span>Política de Privacidad</span><span>Términos y Condiciones</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px;align-items:flex-start"><span style="font-size:13px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#D5B084">Contacto</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Correo electrónico]</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Instagram, Facebook, TikTok]</span></div>
+</div>
+</div>
+<div style="border-top:1px solid #745334;padding-top:24px;font-size:14px">© 2024 Eurotez Skincare. Todos los derechos reservados.</div>
+</div></footer>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Footer · Astra Builder</div><div>Astra Footer Builder, bg Custom Deep Cocoa. Primary Footer, 5 columns (40 / 15 × 4): Widget 1 (logo, tagline, heading, text, Elementor Pro Form shortcode with arrow-icon button) · 3 nav menus · contact text. Column heads in Accent (5.6:1). Below Footer: copyright.</div><div style="color:#6B645C"><b>≤767:</b> columns stack; menus 2-up.</div></div></aside></sc-if>
+</div>
+
+</div>
+</x-dc>
+</body>
+</html>

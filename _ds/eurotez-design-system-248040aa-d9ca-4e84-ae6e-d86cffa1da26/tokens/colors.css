@@ -1,0 +1,45 @@
+:root{
+/* MARCA — paleta oficial del brand kit (EUROTEZ_3.pdf) */
+--brand-cocoa:#745334;
+--brand-tan:#D5B084;
+--brand-cream:#FDEEC4;
+--brand-white:#FFFFFF;
+
+/* tintas del logotipo, muestreadas del arte original */
+--logo-graphite:#4D4D4D;
+--logo-taupe:#998675;
+
+/* neutros de soporte derivados de la paleta */
+--sand-50:#FEFAF1;
+--sand-100:#FDF6E6;
+--sand-200:#FBEED2;
+--sand-300:#F3DFB4;
+--sand-400:#E5C79C;
+--sand-500:#D5B084;
+--sand-600:#B08F62;
+--sand-700:#8C6C46;
+--ink-900:#4D4D4D;
+--ink-700:#6B645C;
+--ink-500:#8A8178;
+--ink-300:#B3ABA1;
+--ink-100:#DCD5CB;
+--white:#FFFFFF;
+
+/* semantic aliases */
+--color-bg:var(--brand-cream);
+--color-surface:var(--white);
+--color-surface-alt:var(--sand-200);
+--color-card:var(--white);
+--color-border:var(--ink-100);
+--color-text:var(--logo-graphite);
+--color-text-muted:var(--logo-taupe);
+--color-text-inverse:var(--white);
+--color-accent:var(--brand-cocoa);
+--color-accent-hover:#5E4329;
+--color-accent-active:#4A351F;
+--color-accent-contrast:var(--white);
+--color-accent-soft:var(--brand-tan);
+--color-success:#7A8A6B;
+--color-error:#B2604A;
+--color-focus-ring:var(--brand-cocoa);
+}

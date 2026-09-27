@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Eurotez Skincare</title>
+<link rel="stylesheet" href="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/styles.css">
+<script src="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/_ds_bundle.js"></script>
+<style>html,body{margin:0;background:#FDEEC4}a{color:#4A351F}a:hover{color:#5E4329}[data-review]{display:none}</style>
+</helmet>
+<div ref="{{ rootRef }}" onClick="{{ onClick }}" onMouseOver="{{ onOver }}" style="--fw:100%;min-height:100vh;background:#FDEEC4;font-family:Montserrat,sans-serif;color:#4A351F">
+<sc-if value="{{ pg.homeEn }}" hint-placeholder-val="{{ true }}"><dc-import name="Final-Home" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,6000px"></dc-import></sc-if>
+<sc-if value="{{ pg.creamEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Cream" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.storyEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Story" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.ingredientsEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Ingredients" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.faqEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-FAQ" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.homeEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Home-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,6000px"></dc-import></sc-if>
+<sc-if value="{{ pg.creamEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Cream-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.storyEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Story-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.ingredientsEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Ingredients-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.faqEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-FAQ-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.shippingEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Shipping" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.shippingEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Shipping-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,5000px"></dc-import></sc-if>
+<sc-if value="{{ pg.privacyEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Privacy" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.privacyEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Privacy-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.termsEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Terms" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.termsEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Terms-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.checkoutEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Checkout" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" qty="{{ coQty }}" subtotal="{{ coSub }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.checkoutEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Checkout-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" qty="{{ coQty }}" subtotal="{{ coSub }}" hint-size="100%,3000px"></dc-import></sc-if>
+<sc-if value="{{ pg.confirmEn }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Confirm" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" qty="{{ coQty }}" subtotal="{{ coSub }}" hint-size="100%,2500px"></dc-import></sc-if>
+<sc-if value="{{ pg.confirmEs }}" hint-placeholder-val="{{ false }}"><dc-import name="Final-Confirm-ES" desk="{{ desk }}" mob="{{ mob }}" lab="{{ false }}" qty="{{ coQty }}" subtotal="{{ coSub }}" hint-size="100%,2500px"></dc-import></sc-if>
+<sc-if value="{{ stickyBuy }}" hint-placeholder-val="{{ false }}"><div style="height:80px"></div>
+<div style="position:fixed;left:0;right:0;bottom:0;z-index:45;background:#745334;color:#FDEEC4;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:2px solid #4A351F"><span style="font-size:16px;font-weight:700">$25 · 50 ml</span><span style="display:inline-flex;align-items:center;height:52px;padding:0 24px;background:#FDEEC4;color:#4A351F;font-size:14px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;cursor:pointer">{{ t.add }}</span></div>
+</sc-if>
+
+<sc-if value="{{ menu }}" hint-placeholder-val="{{ false }}">
+<div style="position:fixed;inset:0;z-index:50;background:#FDEEC4;display:flex;flex-direction:column;overflow:auto">
+<div style="height:68px;padding:0 20px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #4A351F;flex:none">
+<img src="assets/logo-horizontal.png" alt="Eurotez Skincare" style="height:28px;display:block">
+<span onClick="{{ closeMenu }}" style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center;cursor:pointer"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#4A351F" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18"></path></svg></span>
+</div>
+<nav style="display:flex;flex-direction:column;padding:24px 20px;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:36px;letter-spacing:-.01em;line-height:1.1">
+<span style="padding:18px 0;border-bottom:2px solid #4A351F">{{ t.cream }}</span>
+<span style="padding:18px 0;border-bottom:2px solid #4A351F">{{ t.story }}</span>
+<span style="padding:18px 0;border-bottom:2px solid #4A351F">{{ t.ingredients }}</span>
+<sc-if value="{{ isEn }}" hint-placeholder-val="{{ true }}"><span style="padding:18px 0;border-bottom:2px solid #4A351F">FAQ <span style="font-family:Montserrat,sans-serif;font-weight:800">&amp;</span> Contact</span></sc-if>
+<sc-if value="{{ isEs }}" hint-placeholder-val="{{ false }}"><span style="padding:18px 0;border-bottom:2px solid #4A351F">Preguntas y Contacto</span></sc-if>
+</nav>
+<div style="padding:8px 20px 40px;display:flex;flex-direction:column;gap:24px;align-items:flex-start">
+<span style="display:inline-flex;align-items:center;height:64px;padding:0 32px;background:#745334;color:#FDEEC4;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase">{{ t.shop }}</span>
+<span style="font-size:13px;letter-spacing:.12em;min-height:44px;display:flex;align-items:center">EN | ES</span>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ cart }}" hint-placeholder-val="{{ false }}">
+<div onClick="{{ closeCart }}" style="position:fixed;inset:0;z-index:60;background:rgba(74,53,31,.4)"></div>
+<aside style="position:fixed;top:0;right:0;bottom:0;z-index:61;width:min(420px,100%);box-sizing:border-box;background:#FDEEC4;border-left:2px solid #4A351F;display:flex;flex-direction:column">
+<div style="height:68px;padding:0 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #4A351F;flex:none">
+<span style="font-size:13px;font-weight:600;letter-spacing:.22em;text-transform:uppercase">{{ t.cart }}</span>
+<span onClick="{{ closeCart }}" style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center;cursor:pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#4A351F" stroke-width="1.5"><path d="M6 6l12 12M18 6L6 18"></path></svg></span>
+</div>
+<sc-if value="{{ empty }}" hint-placeholder-val="{{ false }}">
+<div style="padding:40px 24px;display:flex;flex-direction:column;gap:24px;align-items:flex-start">
+<p style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:28px;line-height:1.3">{{ t.empty }}</p>
+<span style="display:inline-flex;align-items:center;height:64px;padding:0 32px;background:#745334;color:#FDEEC4;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase">{{ t.shop }}</span>
+</div>
+</sc-if>
+<sc-if value="{{ filled }}" hint-placeholder-val="{{ false }}">
+<div style="flex:1;padding:24px;display:flex;flex-direction:column;gap:20px;overflow:auto">
+<div style="display:flex;gap:16px;padding-bottom:20px;border-bottom:2px solid #4A351F">
+<img src="assets/photos/jar-macro.jpg" alt="{{ t.product }}" style="width:88px;height:110px;object-fit:cover;display:block;flex:none">
+<div style="flex:1;display:flex;flex-direction:column;gap:6px">
+<span style="font-family:'Commuters Sans',sans-serif;font-weight:300;font-size:20px;line-height:1.25">{{ t.product }}</span>
+<span style="font-size:14px">50 ml (1.7 fl oz)</span>
+<div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px">
+<div style="display:flex;align-items:center;border:2px solid #4A351F;height:44px">
+<span onClick="{{ dec }}" style="width:40px;height:44px;display:flex;align-items:center;justify-content:center;cursor:pointer">−</span>
+<span style="min-width:24px;text-align:center">{{ qty }}</span>
+<span onClick="{{ inc }}" style="width:40px;height:44px;display:flex;align-items:center;justify-content:center;cursor:pointer">+</span>
+</div>
+<span style="font-size:16px;font-weight:500">{{ subtotal }}</span>
+</div>
+</div>
+</div>
+<div style="display:flex;justify-content:space-between;font-size:16px"><span>Subtotal</span><span style="font-weight:600">{{ subtotal }}</span></div>
+<p style="margin:0;font-size:14px;line-height:1.6">{{ t.ship }}</p>
+</div>
+<div style="padding:24px;border-top:2px solid #4A351F;flex:none">
+<span onClick="{{ checkout }}" style="display:flex;align-items:center;justify-content:center;height:64px;background:#745334;color:#FDEEC4;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;cursor:pointer">{{ t.checkout }}</span>
+</div>
+</sc-if>
+</aside>
+</sc-if>
+
+<sc-if value="{{ hasToast }}" hint-placeholder-val="{{ false }}">
+<div style="position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:70;max-width:calc(100% - 32px);box-sizing:border-box;background:#745334;color:#FDEEC4;padding:14px 20px;font-size:14px;line-height:1.5">{{ toast }}</div>
+</sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const PAGES = ['home', 'cream', 'story', 'ingredients', 'faq', 'shipping', 'privacy', 'terms', 'checkout', 'confirm'];
+const NAV = {
+  'the cream': 'cream', 'shop now': 'cream', 'shop now, $25': 'cream', 'our story': 'story', 'read our story': 'story', 'ingredients': 'ingredients', "see what's inside": 'ingredients', 'see the full ingredient list': 'ingredients', 'faq & contact': 'faq', 'see all questions': 'faq',
+  'la crema': 'cream', 'comprar ahora': 'cream', 'comprar ahora, $25': 'cream', 'nuestra historia': 'story', 'lee nuestra historia': 'story', 'ingredientes': 'ingredients', 'descubre los ingredientes': 'ingredients', 'ver la lista completa de ingredientes': 'ingredients', 'preguntas y contacto': 'faq', 'ver todas las preguntas': 'faq',
+  'shipping & returns': 'shipping', 'privacy policy': 'privacy', 'terms and conditions': 'terms', 'envíos y devoluciones': 'shipping', 'política de privacidad': 'privacy', 'términos y condiciones': 'terms',
+  'go to contact form': 'faq', 'ir al formulario de contacto': 'faq', 'back to home': 'home', 'volver al inicio': 'home'
+};
+const ACT = { 'add to cart': 'add', 'añadir al carrito': 'add', 'subscribe': 'sub', 'suscribirme': 'sub', 'send message': 'sent', 'enviar mensaje': 'sent', 'en | es': 'lang', 'place order': 'place', 'realizar pedido': 'place', 'edit cart': 'cart', 'editar carrito': 'cart' };
+const T = {
+  en: { cream: 'The Cream', story: 'Our Story', ingredients: 'Ingredients', shop: 'Shop Now', cart: 'Cart', empty: 'Your cart is empty.', product: 'Eurotez Intensive Night Cream', ship: 'Ships anywhere in the US. Shipping cost is shown at checkout. 14-day returns on unopened products.', checkout: 'Checkout', add: 'Add to Cart', req: 'Please complete the required fields.', bad: 'Please enter a valid email.', subOk: 'Thank you. You are on the Eurotez list.',
+    sub: 'Thank you. The signup connects to the email service on the live site.', sent: 'Thank you. We received your message and will reply soon.', policy: 'Policy pages are being written and are not part of this review.', co: 'Checkout runs in WooCommerce on the live site.' },
+  es: { cream: 'La Crema', story: 'Nuestra Historia', ingredients: 'Ingredientes', shop: 'Comprar Ahora', cart: 'Carrito', empty: 'Tu carrito está vacío.', product: 'Eurotez crema intensiva nocturna', ship: 'Envíos a todo Estados Unidos. El costo de envío se muestra al finalizar la compra. Devoluciones dentro de 14 días en productos sin abrir.', checkout: 'Finalizar compra', add: 'Añadir al carrito', req: 'Completa los campos obligatorios.', bad: 'Escribe un correo electrónico válido.', subOk: 'Gracias. Ya estás en la lista Eurotez.',
+    sub: 'Gracias. La suscripción se conecta al servicio de correo en el sitio final.', sent: 'Gracias. Recibimos tu mensaje y te responderemos pronto.', policy: 'Las páginas de políticas están en preparación y no forman parte de esta revisión.', co: 'El pago se realiza en WooCommerce en el sitio final.' }
+};
+const INCI = 'WATER, SIMMONDSIA CHINENSIS (JOJOBA) SEED OIL, GLYCERIN, LIMNANTHES ALBA (MEADOWFOAM) SEED OIL, CETEARYL ALCOHOL, SQUALANE, UREA, COCOS NUCIFERA (COCONUT) OIL, BUTYROSPERMUM PARKII (SHEA) BUTTER, GLYCERYL STEARATE, HYDROXYACETOPHENONE, 1,2-HEXANEDIOL, TOCOPHEROL, PEG-100 STEARATE, POLYACRYLAMIDE, HEXYLDECANOL, CERAMIDE NP, CERAMIDE AP, CERAMIDE AS, PANTHENOL, CERAMIDE NS/CERAMIDE NG, PHYTOSTERYL OLEATE, CENTELLA ASIATICA EXTRACT, HIPPOPHAE RHAMNOIDES FRUIT OIL, HYDROGENATED LECITHIN, CERAMIDE EOP';
+const ANS = {
+  'who is eurotez for?': 'Women with dry, dull, or mature skin who want great skin without a complicated routine. It is also suitable for sensitive skin.',
+  'when and how do i use it?': 'At night, on a clean, dry face. Smooth a small amount over your face and let it work while you sleep.',
+  'can i use it in the morning?': 'Eurotez is designed as a night cream. During the day, protect your skin with sunscreen.',
+  'can i use it if i have sensitive skin?': 'Yes. Eurotez is suitable for sensitive skin and is free of parabens, silicones, and synthetic fragrances. As with any new product, test a small amount behind your ear before using it on your face.',
+  'will it replace my other products?': 'At night, Eurotez is made to do the work of several creams in one step. Keep your cleanser, and wear sunscreen during the day.',
+  "what's in it?": 'Ceramides, squalane, urea, centella asiatica, vitamin E, and nourishing plant oils with shea butter. See the full list on our <a href="#/ingredients" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Ingredients page</a>.',
+  'where do you ship, and how much does it cost?': 'We ship within the United States only. Shipping cost is shown at checkout.',
+  'what is your return policy?': 'You have 14 days from the delivery date to request a return. We accept unopened, unused products in their original packaging. Read the full <a href="#/shipping" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Shipping &amp; Returns</a> policy.',
+  'how can i reach you?': 'Email us at llc@eurotezskin.com or use the form below.',
+  'how to use': 'Apply to a clean, dry face at night. Before your first use, test a small amount behind your ear.',
+  'suitable for': 'Dry, dull, or mature skin. Suitable for sensitive skin.',
+  'free from': 'Parabens, silicones, and synthetic fragrances.',
+  'ingredients': INCI,
+  'shipping & returns': 'We ship within the United States only. Shipping cost is shown at checkout. You have 14 days from the delivery date to request a return of unopened, unused products. <a href="#/shipping" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Read the full policy</a>.',
+  '¿para quién es eurotez?': 'Para mujeres con piel seca, opaca o madura que quieren cuidar su piel sin una rutina complicada. También es apta para piel sensible.',
+  '¿cuándo y cómo se usa?': 'Por la noche, sobre el rostro limpio y seco. Extiende una pequeña cantidad sobre el rostro y deja que actúe mientras duermes.',
+  '¿puedo usarla por la mañana?': 'Eurotez está pensada como crema de noche. Durante el día, protege tu piel con protector solar.',
+  '¿puedo usarla si tengo la piel sensible?': 'Sí. Eurotez es apta para piel sensible y no contiene parabenos, siliconas ni fragancias sintéticas. Como con cualquier producto nuevo, prueba una pequeña cantidad detrás de la oreja antes de usarla en el rostro.',
+  '¿reemplaza mis otros productos?': 'Por la noche, Eurotez está hecha para hacer el trabajo de varias cremas en un solo paso. Mantén tu limpiador y usa protector solar durante el día.',
+  '¿qué contiene?': 'Ceramidas, escualano, urea, centella asiática, vitamina E y aceites vegetales nutritivos con manteca de karité. Consulta la lista completa en nuestra <a href="#/es/ingredients" style="color:inherit;text-decoration:underline;text-underline-offset:3px">página de Ingredientes</a>.',
+  '¿a dónde envían y cuánto cuesta?': 'Solo enviamos dentro de Estados Unidos. El costo de envío se muestra al finalizar la compra.',
+  '¿cuál es su política de devoluciones?': 'Tienes 14 días a partir de la fecha de entrega para solicitar una devolución. Aceptamos productos sin abrir, sin usar y en su empaque original. Lee la política completa de <a href="#/es/shipping" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Envíos y Devoluciones</a>.',
+  '¿cómo puedo comunicarme con ustedes?': 'Escríbenos a llc@eurotezskin.com o usa el formulario de abajo.',
+  'modo de uso': 'Aplica sobre el rostro limpio y seco por la noche. Antes del primer uso, prueba una pequeña cantidad detrás de la oreja.',
+  'ideal para': 'Piel seca, opaca o madura. Apta para piel sensible.',
+  'libre de': 'Parabenos, siliconas y fragancias sintéticas.',
+  'ingredientes': INCI,
+  'envíos y devoluciones': 'Solo realizamos envíos dentro de Estados Unidos. El costo de envío se muestra al finalizar la compra. Tienes 14 días a partir de la fecha de entrega para solicitar la devolución de productos sin abrir y sin usar. <a href="#/es/shipping" style="color:inherit;text-decoration:underline;text-underline-offset:3px">Lee la política completa</a>.'
+};
+const norm = s => (s || '').replace(/[’‘]/g, "'").replace(/\s+/g, ' ').trim().toLowerCase();
+const imgOf = el => { if (!el) return ''; if (el.tagName === 'IMG') return el.getAttribute('src'); const m = (el.style.backgroundImage || '').match(/url\(["']?([^"')]+)/); return m ? m[1] : ''; };
+
+class Component extends DCLogic {
+  state = { page: 'home', lang: 'en', w: typeof window !== 'undefined' ? window.innerWidth : 1440, menu: false, cart: false, qty: 0, ordered: 1, toast: '' };
+  rootRef = React.createRef();
+  componentDidMount() {
+    this.onHash = () => { const r = this.parse(); this.setState({ page: r.page, lang: r.lang, menu: false, cart: false }); window.scrollTo(0, 0); };
+    this.onResize = () => this.setState({ w: window.innerWidth });
+    window.addEventListener('hashchange', this.onHash);
+    window.addEventListener('resize', this.onResize);
+    const r = this.parse(); this.setState({ page: r.page, lang: r.lang, w: window.innerWidth });
+  }
+  componentWillUnmount() { window.removeEventListener('hashchange', this.onHash); window.removeEventListener('resize', this.onResize); clearTimeout(this.tt); }
+  componentDidUpdate() { this.syncBadge(); document.documentElement.lang = this.state.lang; }
+  parse() { const p = (location.hash || '').replace(/^#\/?/, '').split('/'); const lang = p[0] === 'es' ? 'es' : 'en'; const pg = lang === 'es' ? p[1] : p[0]; return { lang, page: PAGES.includes(pg) ? pg : 'home' }; }
+  go(page, lang) { lang = lang || this.state.lang; this.setState({ menu: false, cart: false }); const h = '#/' + (lang === 'es' ? 'es/' : '') + page; if (location.hash !== h) location.hash = h; else window.scrollTo(0, 0); }
+  say(t) { clearTimeout(this.tt); this.setState({ toast: t }); this.tt = setTimeout(() => this.setState({ toast: '' }), 3600); }
+  syncBadge() {
+    const r = this.rootRef.current; if (!r) return;
+    r.querySelectorAll('path[d^="M5 8h14"]').forEach(p => { const svg = p.closest('svg'); const b = svg && svg.parentElement.querySelector(':scope > span'); if (b && b.textContent !== String(this.state.qty)) b.textContent = String(this.state.qty); });
+  }
+  resolve(t) {
+    const root = this.rootRef.current; let el = t;
+    if (t && /^(INPUT|TEXTAREA)$/.test(t.tagName)) return null;
+    for (let i = 0; i < 6 && el && el !== root && el.nodeType === 1; i++, el = el.parentElement) {
+      if (el.tagName === 'A') return null;
+      if (el.tagName === 'IMG' && /eurotez skincare/i.test(el.alt || '')) return { nav: 'home', el };
+      if (el.hasAttribute && el.hasAttribute('data-tab')) return { tab: el, el };
+      if (el.hasAttribute && el.hasAttribute('data-toc')) return { toc: el, el };
+      const isRow = n => n && n.tagName === 'DIV' && n.children.length === 2 && n.children[0].tagName === 'SPAN' && n.children[1].tagName === 'SPAN' && /^[+−]$/.test(n.children[1].textContent.trim());
+      if (isRow(el)) return { macc: el, el };
+      if (el.tagName === 'SPAN' && isRow(el.parentElement)) return { macc: el.parentElement, el: el.parentElement };
+      const tx = norm(el.textContent);
+      if (NAV[tx]) return { nav: NAV[tx], el };
+      if (ACT[tx]) return { act: ACT[tx], el };
+      if ((tx === '+' || tx === '−') && el.parentElement && el.parentElement.children.length === 3 && /^\d+$/.test(el.parentElement.children[1].textContent.trim())) return { step: tx === '+' ? 1 : -1, el };
+      const svg = el.tagName.toLowerCase() === 'svg' ? el : el.querySelector && el.querySelector(':scope > svg');
+      if (svg && !tx) {
+        const p = svg.querySelector('path'); const d = (p && p.getAttribute('d')) || '';
+        if (d.indexOf('M4 7h16') === 0) return { act: 'menu', el };
+        if (d.indexOf('M19 12H5') === 0) return { slide: -1, el };
+        if (d.indexOf('M5 12h14') === 0) return { slide: 1, el };
+      }
+      if (svg) { const p = svg.querySelector('path'); if (p && (p.getAttribute('d') || '').indexOf('M5 8h14') === 0) return { act: 'cart', el }; }
+      const g = el.parentElement;
+      if (g && g.style && g.style.display === 'grid' && /repeat\((3|4)/.test(g.style.gridTemplateColumns) && imgOf(el) && g.previousElementSibling && imgOf(g.previousElementSibling)) return { thumb: el, main: g.previousElementSibling, el };
+      if (tx.length > 48) break;
+    }
+    return null;
+  }
+  accHead(t) {
+    let el = t;
+    for (let i = 0; i < 4 && el && el.nodeType === 1; i++, el = el.parentElement) {
+      const h4 = el.querySelector && el.querySelector(':scope > h4');
+      const last = el.lastElementChild;
+      if (h4 && last && last !== h4 && last.tagName !== 'P') { const tag = last.tagName.toLowerCase(); if (tag === 'svg' || last.querySelector('svg') || /^[+−-]$/.test(last.textContent.trim())) return el; }
+    }
+    return null;
+  }
+  toggle(head) {
+    const h4 = head.querySelector(':scope > h4'); const q = norm(h4.textContent);
+    const wrap = head.parentElement.getElementsByTagName('h4').length > 1;
+    let body = wrap ? head.querySelector(':scope > p[data-acc]') : head.parentElement.querySelector(':scope > p');
+    let open;
+    if (!body) {
+      if (!ANS[q]) return false;
+      let group = head.parentElement; while (group && group.getElementsByTagName('h4').length < 2) group = group.parentElement;
+      let tpl = null; if (group) group.querySelectorAll('p').forEach(p => { if (!tpl && p.previousElementSibling && p.previousElementSibling.querySelector('h4')) tpl = p; });
+      body = document.createElement('p');
+      body.style.cssText = tpl ? tpl.style.cssText : 'margin:0 0 24px;font-size:16px;line-height:1.75';
+      body.innerHTML = ANS[q]; body.setAttribute('data-acc', '1');
+      if (wrap) { head.style.flexWrap = 'wrap'; body.style.flexBasis = '100%'; body.style.margin = '12px 0 4px'; head.appendChild(body); } else head.after(body);
+      open = true;
+    } else { open = body.style.display === 'none'; body.style.display = open ? '' : 'none'; }
+    const icon = head.lastElementChild === body ? body.previousElementSibling : head.lastElementChild;
+    const svg = icon.tagName.toLowerCase() === 'svg' ? icon : icon.querySelector('svg');
+    if (svg) {
+      const ps = svg.querySelectorAll('path'); const d0 = ps[0].getAttribute('d');
+      if (d0.indexOf('M6') === 0) ps[0].setAttribute('d', open ? 'M6 15l6-6 6 6' : 'M6 9l6 6 6-6');
+      else if (open) { if (ps[1]) ps[1].remove(); }
+      else if (ps.length === 1) { const v = document.createElementNS('http://www.w3.org/2000/svg', 'path'); v.setAttribute('d', 'M12 4v16'); svg.appendChild(v); }
+    } else icon.textContent = open ? '−' : '+';
+    return true;
+  }
+  tab(el) {
+    const tabs = [...el.parentElement.children]; const i = tabs.indexOf(el);
+    const panel = el.parentElement.parentElement.querySelector('[data-panel]'); if (!panel) return;
+    if (!panel.dataset.css) panel.dataset.css = panel.style.cssText;
+    tabs.forEach((t, j) => { t.style.background = j === i ? '#FDEEC4' : 'transparent'; t.style.color = j === i ? '#4A351F' : ''; });
+    const k = norm(el.textContent); panel.innerHTML = ANS[k] || '';
+    panel.style.cssText = panel.dataset.css;
+    if (i > 0) { panel.style.fontFamily = 'Montserrat,sans-serif'; panel.style.fontWeight = '500'; panel.style.fontSize = k === 'ingredients' || k === 'ingredientes' ? '16px' : '20px'; panel.style.lineHeight = '1.75'; panel.style.letterSpacing = k === 'ingredients' || k === 'ingredientes' ? '.04em' : '0'; }
+  }
+  slide(el, dir) {
+    const sec = el.closest('section'); const strip = sec && sec.firstElementChild; if (!strip) return;
+    const items = [...strip.children]; const n = items.length; const step = items[0].getBoundingClientRect().width + 16;
+    const vis = Math.max(1, Math.floor(sec.getBoundingClientRect().width / step));
+    const i = Math.min(Math.max(0, (+strip.dataset.i || 0) + dir), Math.max(0, n - vis));
+    strip.dataset.i = i; strip.style.transition = 'transform 250ms ease'; strip.style.transform = 'translateX(' + (-i * step) + 'px)';
+    const bars = [...sec.querySelectorAll('span')].filter(s => s.style.width === '48px' && s.style.height === '2px');
+    bars.forEach((b, j) => { b.style.background = j === i ? '#4A351F' : '#D5B084'; });
+  }
+  macc(row) {
+    const k = norm(row.children[0].textContent); let body = row.nextElementSibling;
+    const has = body && body.tagName === 'P'; const open = !(has && body.style.display !== 'none');
+    if (has) body.style.display = open ? '' : 'none';
+    else if (open && ANS[k]) { const tpl = row.parentElement.querySelector(':scope > p'); body = document.createElement('p'); body.style.cssText = tpl ? tpl.style.cssText : 'margin:0;padding:20px;font-size:17px;line-height:1.6;font-weight:500'; body.innerHTML = ANS[k]; row.after(body); }
+    row.children[1].textContent = open ? '−' : '+';
+    row.style.background = open ? '#FDEEC4' : 'transparent'; row.style.color = open ? '#4A351F' : '';
+  }
+  renderVals() {
+    const s = this.state; const desk = s.w >= 1024; const L = s.lang; const t = T[L];
+    const pg = {}; PAGES.forEach(p => { pg[p + 'En'] = L === 'en' && s.page === p; pg[p + 'Es'] = L === 'es' && s.page === p; });
+    return {
+      rootRef: this.rootRef, desk, mob: !desk, coQty: s.page === 'confirm' ? s.ordered : Math.max(1, s.qty), coSub: '$' + 25 * (s.page === 'confirm' ? s.ordered : Math.max(1, s.qty)), stickyBuy: !desk && s.page === 'cream' && !s.menu && !s.cart, pg, t, isEn: L === 'en', isEs: L === 'es',
+      menu: s.menu, cart: s.cart, qty: s.qty, empty: s.qty === 0, filled: s.qty > 0, subtotal: '$' + (25 * s.qty),
+      toast: s.toast, hasToast: !!s.toast,
+      closeMenu: () => this.setState({ menu: false }),
+      closeCart: () => this.setState({ cart: false }),
+      inc: () => this.setState({ qty: s.qty + 1 }),
+      dec: () => this.setState({ qty: Math.max(0, s.qty - 1) }),
+      checkout: () => this.go('checkout'),
+      onOver: e => { const el = e.target; if (el.style && !el.dataset.cur) { el.dataset.cur = '1'; const hit = this.accHead(el) || this.resolve(el); if (hit) (hit.el || hit).style.cursor = 'pointer'; } },
+      onClick: e => {
+        const head = this.accHead(e.target); if (head && this.toggle(head)) return;
+        const r = this.resolve(e.target); if (!r) return;
+        if (r.nav) return this.go(r.nav);
+        if (r.tab) return this.tab(r.tab);
+        if (r.slide) return this.slide(r.el, r.slide);
+        if (r.thumb) { const src = imgOf(r.thumb); if (r.main.tagName === 'IMG') r.main.setAttribute('src', src); else r.main.style.backgroundImage = 'url(' + src + ')'; [...r.thumb.parentElement.children].forEach(c => { c.style.outline = c === r.thumb ? '2px solid #745334' : 'none'; c.style.outlineOffset = '-2px'; }); return; }
+        if (r.step) { const n = r.el.parentElement.children[1]; n.textContent = String(Math.max(1, (+n.textContent || 1) + r.step)); return; }
+        if (r.toc) { const k = norm(r.toc.textContent); const hh = [...this.rootRef.current.querySelectorAll('h3')].find(x => norm(x.textContent) === k); if (hh) window.scrollTo({ top: hh.getBoundingClientRect().top + window.scrollY - 24, behavior: 'smooth' }); return; }
+        if (r.macc) return this.macc(r.macc);
+        if (r.act === 'place') { const root = this.rootRef.current; const bad = [...root.querySelectorAll('[aria-required="true"]')].find(x => !x.value.trim()); if (bad) { bad.focus(); return this.say(t.req); } const em = root.querySelector('input[type=email][aria-required="true"]'); if (em && !/.+@.+\..+/.test(em.value)) { em.focus(); return this.say(t.bad); } this.setState({ ordered: Math.max(1, s.qty), qty: 0 }); return this.go('confirm'); }
+        if (r.act === 'sub') { const box = r.el.parentElement; const em = box.querySelector('input[type=email]'); if (em && !/.+@.+\..+/.test(em.value)) { em.focus(); return this.say(t.bad); } if (em) em.style.display = 'none'; r.el.style.display = 'none'; const ok = document.createElement('p'); ok.style.cssText = 'flex:1 1 100%;margin:0;min-height:64px;box-sizing:border-box;display:flex;align-items:center;padding:12px 20px;background:#FDEEC4;border:2px solid #4A351F;font-size:16px;font-weight:600;line-height:1.5'; ok.textContent = t.subOk; box.insertBefore(ok, box.firstChild); return; }
+        if (r.act === 'lang') return this.go(s.page, L === 'en' ? 'es' : 'en');
+        if (r.act === 'menu') return this.setState({ menu: true });
+        if (r.act === 'cart') return this.setState({ cart: true, menu: false });
+        if (r.act === 'add') { const box = r.el.parentElement; const stp = box && [...box.children].find(c => c !== r.el && c.children.length === 3 && /^\d+$/.test(c.children[1].textContent.trim())); return this.setState({ qty: s.qty + (stp ? +stp.children[1].textContent : 1), cart: true }); }
+        if (r.act === 'sub' || r.act === 'sent') { const sc = r.el.closest(r.act === 'sub' ? 'div' : 'section'); const scope = r.act === 'sub' ? r.el.parentElement : sc; const fs = [...scope.querySelectorAll('input,textarea')]; const em = fs.find(x => x.type === 'email'); if (em && !/.+@.+\..+/.test(em.value)) { em.focus(); return this.say(L === 'es' ? 'Escribe un correo electrónico válido.' : 'Please enter a valid email.'); } fs.forEach(x => { x.value = ''; }); }
+        this.say(t[r.act] || '');
+      }
+    };
+  }
+}
+</script>
+</body>
+</html>

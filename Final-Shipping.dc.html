@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/styles.css">
+<script src="_ds/eurotez-design-system-248040aa-d9ca-4e84-ae6e-d86cffa1da26/_ds_bundle.js"></script>
+<style>body{margin:0}a{color:#FDEEC4}a:hover{color:#FFFFFF}</style>
+</helmet>
+<div style="display:flex;flex-direction:column;font-family:Montserrat,sans-serif;color:#4A351F">
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<div style="background:#D5B084;color:#4A351F;text-align:center;padding:12px 24px;font-size:14px;font-weight:700;letter-spacing:.12em;text-transform:uppercase">Ships anywhere in the US. 14-day returns.</div>
+<sc-if value="{{ desk }}" hint-placeholder-val="{{ true }}">
+<header style="background:#745334;padding:0 24px"><div style="max-width:1200px;margin:0 auto;height:96px;display:flex;align-items:center;justify-content:space-between;gap:32px;color:#FDEEC4">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:38px;display:block">
+<nav style="display:flex;gap:36px;font-size:15px;font-weight:700;letter-spacing:.1em;text-transform:uppercase"><span>The Cream</span><span>Our Story</span><span>Ingredients</span><span>FAQ &amp; Contact</span></nav>
+<div style="display:flex;align-items:center;gap:20px">
+<span style="font-size:14px;font-weight:700">EN | ES</span>
+<span style="display:inline-flex;align-items:center;height:48px;padding:0 24px;border:2px solid #FDEEC4;box-sizing:border-box;font-size:14px;font-weight:700;letter-spacing:.12em;text-transform:uppercase">Shop Now</span>
+<span style="position:relative;display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="2"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg><span style="position:absolute;top:2px;right:0;width:18px;height:18px;border-radius:999px;background:#D5B084;color:#4A351F;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center">0</span></span>
+</div>
+</div></header>
+</sc-if>
+<sc-if value="{{ mob }}" hint-placeholder-val="{{ false }}">
+<header style="background:#745334;padding:0 16px;height:68px;display:flex;align-items:center;justify-content:space-between">
+<img src="assets/logo-horizontal-white.png" alt="Eurotez Skincare" style="height:28px;display:block">
+<div style="display:flex;align-items:center;gap:4px">
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="2"><path d="M5 8h14l-1.2 12H6.2L5 8z"></path><path d="M9 8V6a3 3 0 0 1 6 0v2"></path></svg></span>
+<span style="display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center;border:2px solid #FDEEC4;box-sizing:border-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FDEEC4" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></span>
+</div>
+</header>
+</sc-if>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Header · Astra Builder</div><div>Above Header: HTML 1, bg Accent (tan), text Custom Deep Cocoa. Primary Header bg Primary (matches hero so they read as one poster): Logo (white version) · Primary Menu (caps) · Widget 1 (EN | ES) · Button 1 (outline 2 px Secondary, radius 0) · Cart. Not sticky, not transparent.</div><div style="color:#6B645C"><b>≤767:</b> Logo, Cart, Menu toggle (outlined).</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="position:relative;background:#745334;color:#FDEEC4;padding:clamp(56px,6.6cqw,96px) 24px clamp(96px,11cqw,160px)"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(40px,4.4cqw,64px)">
+<p style="margin:0;font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase">Policies</p>
+<h1 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:clamp(50px,6.67cqw,96px);line-height:.98;letter-spacing:-.02em;color:#FFFFFF;overflow-wrap:break-word">Shipping <span style="font-family:Montserrat,sans-serif;font-weight:800">&amp;</span> Returns</h1>
+<p style="margin:0;font-size:clamp(20px,1.66cqw,24px);font-weight:600;line-height:1.4;max-width:720px;text-wrap:pretty">We ship within the United States only. You have 14 days from delivery to request a return.</p>
+</div>
+<svg viewBox="0 0 1000 100" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-1px;width:100%;height:clamp(40px,5.5cqw,80px);display:block"><path d="M0 100 V70 Q500 -30 1000 70 V100 Z" fill="#D5B084"></path></svg>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">1 Page hero · Primary</div><div>Same Section template as the FAQ hero: Heading H6 (eyebrow), H1 (96 px, white; &amp; in Montserrat 800), Heading p. Shape Divider: “Curve”, Accent.</div><div style="color:#6B645C"><b>≤767:</b> H1 50 px; divider 40.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="position:relative;background:#D5B084;color:#4A351F;padding:clamp(56px,6.6cqw,96px) 24px clamp(96px,11cqw,160px)"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(40px,4.4cqw,64px)">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:clamp(40px,5.3cqw,76px);line-height:1;letter-spacing:-.02em;overflow-wrap:break-word">Returns at a Glance</h2>
+<div style="display:flex;flex-wrap:wrap"><div style="flex:1 1 calc(33.33% - 1px);min-width:min(280px,100%);box-sizing:border-box;background:#745334;color:#FDEEC4;padding:clamp(28px,3.3cqw,48px);display:flex;flex-direction:column;gap:16px"><span style="font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(64px,6.67cqw,96px);line-height:.9;letter-spacing:-.02em">14</span><p style="margin:0;font-size:clamp(17px,1.4cqw,20px);font-weight:600;line-height:1.45">Days to request a return, counted from the delivery date.</p></div><div style="flex:1 1 calc(33.33% - 1px);min-width:min(280px,100%);box-sizing:border-box;background:#4A351F;color:#FDEEC4;padding:clamp(28px,3.3cqw,48px);display:flex;flex-direction:column;gap:16px"><span style="font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(64px,6.67cqw,96px);line-height:.9;letter-spacing:-.02em">48</span><p style="margin:0;font-size:clamp(17px,1.4cqw,20px);font-weight:600;line-height:1.45">Hours to tell us about a damaged or defective product, with photos.</p></div><div style="flex:1 1 calc(33.33% - 1px);min-width:min(280px,100%);box-sizing:border-box;background:#FDEEC4;color:#4A351F;padding:clamp(28px,3.3cqw,48px);display:flex;flex-direction:column;gap:16px"><span style="font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(64px,6.67cqw,96px);line-height:.9;letter-spacing:-.02em">5–7</span><p style="margin:0;font-size:clamp(17px,1.4cqw,20px);font-weight:600;line-height:1.45">Business days to process your refund once we receive and verify the product.</p></div></div>
+</div>
+<svg viewBox="0 0 1000 100" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-1px;width:100%;height:clamp(40px,5.5cqw,80px);display:block"><path d="M0 100 L1000 0 V100 Z" fill="#FDEEC4"></path></svg>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">2 Returns at a glance · Accent</div><div>Container full, bg Accent, column &gt; H2 (76 px, Deep Cocoa) &gt; Container row, gap 0: 3 × Container (padding 48): Heading (figure, 96 px 800) + Heading p (20 px 600). Tile bgs Primary / Deep Cocoa / Secondary. Shape Divider: “Tilt”, Secondary.</div><div style="color:#6B645C"><b>≤767:</b> tiles stack 1-up as a color band; figure 64 px.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="position:relative;background:#FDEEC4;color:#4A351F;padding:clamp(56px,6.6cqw,96px) 24px clamp(96px,11cqw,160px)"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(64px,6.6cqw,96px)">
+<div style="display:flex;flex-wrap:wrap;align-items:flex-start;gap:40px clamp(32px,4.4cqw,64px)"><div style="flex:1 1 calc(40% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px"><h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:clamp(40px,5.3cqw,76px);line-height:1;letter-spacing:-.02em;overflow-wrap:break-word;color:#745334">Shipping</h2></div><div style="flex:1 1 calc(60% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px"><p style="margin:0;font-size:clamp(20px,1.66cqw,24px);font-weight:600;line-height:1.4;max-width:720px;text-wrap:pretty">We ship within the United States only. Shipping cost is shown at checkout.</p><span style="align-self:flex-start;background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px;font-size:16px">[Delivery time]</span></div></div>
+<div style="display:flex;flex-wrap:wrap;align-items:flex-start;gap:40px clamp(32px,4.4cqw,64px)"><div style="flex:1 1 calc(40% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px"><h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:clamp(40px,5.3cqw,76px);line-height:1;letter-spacing:-.02em;overflow-wrap:break-word;color:#745334">Return Policy</h2></div><div style="flex:1 1 calc(60% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px"><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">At Eurotez, we want you to have a satisfactory experience. If for any reason you are not happy with your purchase, we accept returns under the following conditions:</p><div style="display:flex;flex-direction:column"><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #745334"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#745334">01</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">You have 14 days from the delivery date to request a return.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #745334"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#745334">02</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">We only accept unopened, unused products in their original packaging for safety and hygiene reasons.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #745334"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#745334">03</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Manage your return through our email or contact form available on this page.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #745334"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#745334">04</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Refunds: Once the product has been received and verified, we will process your refund within 5 to 7 business days using the same payment method used.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #745334"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#745334">05</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">If you receive a damaged or defective product, please notify us within the first 48 hours after delivery with photos of the product so we can send you a replacement or refund at no extra cost.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #745334;border-bottom:4px solid #745334"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#745334">06</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Original shipping costs are refundable only in the case of damaged products or errors in the order. The customer is responsible for return shipping in all other cases.</p></div></div></div></div>
+</div>
+<svg viewBox="0 0 1000 100" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-1px;width:100%;height:clamp(40px,5.5cqw,80px);display:block"><path d="M0 100 V70 Q500 -30 1000 70 V100 Z" fill="#4D4D4D"></path></svg>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">3 Shipping + Return policy · Secondary</div><div>Container full, bg Secondary, boxed 1200, column gap 96 &gt; 2 × Container row 40/60: H2 (Primary) | Heading p + Text Editor. Policy list: Container per item (border-top 4 px Primary, last also border-bottom), Heading (01–06, 40 px 800 Primary, width 64) + Text Editor (18 px 500). Policy text is verbatim from the design system. Shape Divider: “Curve”, Text (graphite).</div><div style="color:#6B645C"><b>≤767:</b> column; number column 44 px.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="position:relative;background:#4D4D4D;color:#FFFFFF;padding:clamp(56px,6.6cqw,96px) 24px clamp(96px,11cqw,160px)"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(40px,4.4cqw,64px)">
+<div style="display:flex;flex-wrap:wrap;align-items:flex-start;gap:40px clamp(32px,4.4cqw,64px)"><div style="flex:1 1 calc(40% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px"><h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:clamp(40px,5.3cqw,76px);line-height:1;letter-spacing:-.02em;overflow-wrap:break-word;color:#FFFFFF">Return Process</h2></div><div style="flex:1 1 calc(60% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:24px"><div style="display:flex;flex-direction:column"><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #FFFFFF"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#D5B084">01</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Contact us via email at <a href="mailto:llc@eurotezskin.com" style="color:#FFFFFF;text-decoration:underline;text-underline-offset:3px">llc@eurotezskin.com</a>. Include your order number, the reason for the return, and whether the product is unopened and in its original packaging.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #FFFFFF"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#D5B084">02</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Wait for our response within 24-48 hours, we will send you the return address and an authorization number.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #FFFFFF"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#D5B084">03</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Pack the product and return it in its original packaging, well protected to avoid damage during shipping.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #FFFFFF"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#D5B084">04</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Send the product to the address indicated. The shipping cost is the customer's responsibility, except if the product arrived damaged or there was an error in the order.</p></div><div style="display:flex;gap:clamp(16px,2.2cqw,32px);padding:24px 0;border-top:4px solid #FFFFFF;border-bottom:4px solid #FFFFFF"><span style="flex:none;width:clamp(44px,4.4cqw,64px);font-family:Montserrat,sans-serif;font-weight:800;font-size:clamp(28px,2.8cqw,40px);line-height:1;color:#D5B084">05</span><p style="margin:0;font-size:clamp(16px,1.25cqw,18px);line-height:1.7;font-weight:500;max-width:760px;text-wrap:pretty">Refund: Once received and verified, we will process the refund within 5-7 business days.</p></div></div></div></div>
+</div>
+<svg viewBox="0 0 1000 100" preserveAspectRatio="none" style="position:absolute;left:0;bottom:-1px;width:100%;height:clamp(40px,5.5cqw,80px);display:block"><path d="M0 0 L1000 100 H0 Z" fill="#745334"></path></svg>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">4 Return process · Text (graphite)</div><div>Container full, bg Text color, boxed 1200, row 40/60 &gt; H2 (white) | 5 step rows (same Container as the policy list; numbers Accent, dividers 4 px white). The email is a mailto link. Shape Divider: “Tilt” flipped, Primary.</div><div style="color:#6B645C"><b>≤767:</b> column.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<section style="position:relative;background:#745334;color:#FDEEC4;padding:clamp(56px,6.6cqw,96px) 24px clamp(64px,6.6cqw,96px)"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:28px">
+<h2 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:clamp(40px,5.3cqw,76px);line-height:1;letter-spacing:-.02em;overflow-wrap:break-word;color:#FFFFFF">Questions About an Order?</h2>
+<p style="margin:0;font-size:clamp(20px,1.66cqw,24px);font-weight:600;line-height:1.4;max-width:720px;text-wrap:pretty">Write to us at <a href="mailto:llc@eurotezskin.com" style="color:#FDEEC4;text-decoration:underline;text-underline-offset:3px">llc@eurotezskin.com</a> or send a message through our contact form.</p>
+<span style="align-self:flex-start;display:inline-flex;align-items:center;min-height:72px;padding:0 clamp(28px,3.9cqw,56px);border:2px solid #FDEEC4;color:#FDEEC4;box-sizing:border-box;font-size:clamp(15px,1.25cqw,18px);font-weight:700;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;margin-top:8px">Go to Contact Form</span>
+</div>
+</section>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">5 Contact call to action · Primary</div><div>Container full, bg Primary, boxed 1200, column, align start &gt; H2 (white), Heading p (email as mailto), Button (outline 2 px Secondary, 72 tall) linking to FAQ &amp; Contact #contact. No divider: footer starts on Accent.</div><div style="color:#6B645C"><b>≤767:</b> button full width.</div></div></aside></sc-if>
+</div>
+
+<div style="display:flex;align-items:flex-start">
+<div style="width:var(--fw,1440px);flex:none;container-type:inline-size">
+<footer style="background:#D5B084;color:#4A351F;padding:clamp(56px,5.5cqw,80px) 24px 28px"><div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-wrap:wrap;gap:40px clamp(32px,4.4cqw,64px);align-items:flex-end">
+<div style="flex:1 1 calc(50% - 32px);min-width:min(300px,100%);display:flex;flex-direction:column;gap:16px">
+<h5 style="margin:0;font-family:'Commuters Sans',sans-serif;font-weight:800;font-size:clamp(32px,3.3cqw,48px);line-height:1;letter-spacing:-.01em">Join the Eurotez List</h5>
+<p style="margin:0;font-size:17px;line-height:1.6;font-weight:500">Skin tips and first word on new products. No spam.</p>
+</div>
+<div style="flex:1 1 calc(50% - 32px);min-width:min(300px,100%);display:flex;flex-wrap:wrap;gap:12px">
+<input type="email" aria-label="Your email" placeholder="Your email" style="flex:1 1 220px;height:64px;box-sizing:border-box;display:flex;align-items:center;padding:0 20px;background:#FDEEC4;border:2px solid #4A351F;font-size:16px;font-family:Montserrat,sans-serif;outline-color:#745334;min-width:0;border-radius:0;">
+<span style="flex:0 1 auto;height:64px;display:inline-flex;align-items:center;justify-content:center;padding:0 36px;border:2px solid #4A351F;box-sizing:border-box;font-size:16px;font-weight:700;letter-spacing:.12em;text-transform:uppercase">Subscribe</span>
+<p style="flex:1 1 100%;margin:0;font-size:14px;line-height:1.5;font-weight:500">By subscribing, you agree to our <span style="text-decoration:underline;text-underline-offset:3px">Privacy Policy</span>.</p>
+</div>
+</div>
+<div style="height:4px;background:#4A351F"></div>
+<div style="display:flex;flex-wrap:wrap;gap:32px">
+<div style="flex:1 1 280px;display:flex;flex-direction:column;gap:14px"><img src="assets/logo-horizontal.png" alt="Eurotez Skincare" style="height:34px;align-self:flex-start"><p style="margin:0;font-size:16px;font-weight:600">Skincare that adapts to your life.</p></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px;font-weight:500"><span style="font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase">Shop</span><span>The Cream</span><span>Ingredients</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px;font-weight:500"><span style="font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase">About</span><span>Our Story</span><span>FAQ &amp; Contact</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px;font-weight:500"><span style="font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase">Policies</span><span>Shipping &amp; Returns</span><span>Privacy Policy</span><span>Terms and Conditions</span></div>
+<div style="flex:1 1 130px;display:flex;flex-direction:column;gap:10px;font-size:16px;font-weight:500;align-items:flex-start"><span style="font-size:14px;font-weight:700;letter-spacing:.14em;text-transform:uppercase">Contact</span><span>llc@eurotezskin.com</span><span style="background:#FDEEC4;color:#745334;border:1px dashed #745334;padding:1px 6px">[Instagram, Facebook, TikTok handles]</span></div>
+</div>
+<div style="font-size:14px;font-weight:500">© 2026 Eurotez Skincare. All rights reserved.</div>
+</div></footer>
+</div>
+<sc-if value="{{ lab }}" hint-placeholder-val="{{ true }}"><aside style="width:320px;flex:none;box-sizing:border-box;padding:16px 0 0 24px;font-size:12px;line-height:1.55;color:#4D4D4D"><div style="background:#fff;border:1px dashed #B3ABA1;padding:12px 14px;display:flex;flex-direction:column;gap:6px"><div style="font-weight:700;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#745334">Footer · Astra Builder</div><div>Astra Footer Builder, bg Accent. Above Footer, 2 columns 50/50: Widget 1 (Heading, Text) · Widget 2 (Elementor Pro Form shortcode, 64 px fields, 2 px border). Primary Footer, 5 columns: logo + tagline · 3 nav menus · contact text. Divider 4 px. Below Footer: copyright.</div><div style="color:#6B645C"><b>≤767:</b> columns stack; menus 2-up.</div></div></aside></sc-if>
+</div>
+
+</div>
+</x-dc>
+</body>
+</html>
